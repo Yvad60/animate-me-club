@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: chocolate;
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  height: 100vh;
+}
+
+.title-container {
+  overflow: hidden;
+  padding-bottom: 16px;
+}
+
+.title {
+  color: azure;
+  text-align: center;
+  animation: bottom-reveal 0.5s ease-in-out;
+}
+
+@keyframes bottom-reveal {
+  from {
+    transform: translateY(100px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
