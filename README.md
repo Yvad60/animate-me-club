@@ -6,3 +6,4 @@ This challenge was inspired by [this article](https://dev.to/acupoftee/25-days-o
 ## Projects
 
 - [Infinite spinner](https://github.com/Yvad60/animate-me-club/tree/infinite-spinner)
+- [Underground title](https://github.com/Yvad60/animate-me-club/tree/underground-title)
