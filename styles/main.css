@@ -21,7 +21,6 @@ body {
 
 .title {
   color: azure;
-  text-align: center;
   animation: bottom-reveal 0.5s ease-in-out;
 }
 
